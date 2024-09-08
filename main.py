@@ -8,5 +8,6 @@ while True:
         if ev.type == pygame.QUIT:
             pygame.quit()
             break
+    tela.fill((255,255,0))
     pygame.display.flip()
 
